@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+u{
+    text-decoration-style: dotted;
+}
+body{
+    font-family: "Merriweather", Georgia, serif;
+    font-size: 16px;
+    color: #212931;
+    background: url(./assets/images/bg.jpg), #212931;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+svg{
+    width: 28px;
+}
+a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+button{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 800;
+    background: none;
+    border: 2px solid #000;
+    width: 130px;
+    height: 40px;
+}
+h1{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+div h4{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #717981;
+}
+h2{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+main, main h1{
+    color: #000;
+}
+main{
+    width: 80vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+header{
+    font-size: 12.8px;
+    background-color: rgba(30, 37, 45, 0.9);
+    width: 80%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+header .right-header div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-header a{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    width: 200px;
+    margin: 10px;
+    padding: 2px;
+}
+.right-header a{
+    filter: invert();
+    width: 50px;
+    margin: 10px;
+}
+.right-header svg{
+    /* border: 2px solid #eeeeee; */
+    box-sizing: content-box;
+    width: 15px;
+    padding: 2px;
+    /* border-radius: 100%; */
+}
+
+.border-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 60px;
+}
+.margin-down{
+    /* margin: 15px; */
+    width: 30vw;
+    border-bottom: 2px solid #eeeeee;
+}
+.first-date{
+    display: flex;
+    justify-content: center;
+    min-width: 160px;
+    margin: 20px;
+    color: #1e252d;
+}
+
+
+.first-massively{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.first-massively h1{
+    color: #eeeeee;
+    margin-top: 400px;
+    width: 400px;
+}
+.first-massively h4{
+    color: #ffffff;
+    width: 710px;
+    margin-top: 15px;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    word-spacing: 1.2px;
+    text-align: center;
+    /* font-style: italic; */
+}
+.first-massively svg{
+    filter: invert();
+    width: 50px;
+    margin: 50px;
+    margin-bottom: 70px;
+}
+
+.second-massively{
+    text-align: center;
+    width: 800px;
+}
+.second-massively h4{
+    margin: 20px 150px;
+    margin-bottom: 70px;
+    width: 500px;
+}
+
+.bigbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-items: center;
+
+}
+
+.bigbox button{
+    margin: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.boxes div{
+    width: 40vw;
+    border-top: 2px solid #eeeeee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes div > *{
+    margin: 20px;
+}
+
+.box1, .box3, .box5{
+    border-right: 2px solid #eeeeee;
+}
+
+.box5, .box6{
+    border-bottom: 2px solid #eeeeee;
+}
+
+.boxes div h4{
+    font-family: "Merriweather", Helvetica, sans-serif;
+    color:#212931;
+}
+.boxes div h2{
+    width: 230px;
+}
+.boxes div p{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-align: left;
+    line-height: 30px;
+    word-spacing: 5px;
+    width: 500px;
+}
+
+
+.next-bar ul{
+    margin: 50px;
+    display: flex;
+    /* border: 1px solid #eeeeee; */
+}
+ul li{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 800;
+    list-style: none;
+    border: 1px solid #eeeeee;
+    /* border-right: 1px solid #eeeeee; */
+    padding: 15px;
+}
+
+
+
+.forms{
+    background: url(./assets/images/overlay.png);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms > div{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.left-form{
+    border-right: 2px solid #eeeeee;
+}
+.left-form button{
+    border: 2px solid #909498;
+    color: #717981;
+    width: 150px;
+    height: 40px;
+}
+
+.left-form > *{
+    margin: 15px;
+    /* padding: 15px; */
+}
+.left-form input, textarea{
+    border: 2px solid #eeeeee;
+    min-width: 95%;
+    max-width: 30vw;
+    min-height: 5vh;
+    max-height: 12vh;
+}
+.left-form input{
+    height: 10%;
+}
+
+
+.right-form{
+    display: flex;
+    flex-direction: column;
+}
+.right-form div{
+    height: 100%;
+    border-bottom: 2px solid #eeeeee;
+    display: flex;
+    align-items: center;
+}
+.right-form .no-border{
+    border: none;
+}
+.no-border svg, .menu svg{
+    border: 2px solid #eeeeee;
+    box-sizing: content-box;
+    width: 15px;
+    padding: 5px;
+    border-radius: 100%;
+}
+.right-form p{
+    color: #717981;
+}
+.right-form h4, .right-form p{
+    display: inline;
+}
+.right-form div > *{
+    margin: 15px;
+    margin-right: 20px;
+}
+
+
+footer{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    margin: 30px;
+    margin-bottom: 120px;
+    padding: 10px;
+    color: #717981;
+}
+
+.openbtn{
+    display: none;
+}
+.menu{
+    display: none;
+}
+
+/* When it starts getting messy */
+@media screen and (max-width: 1290px){
+    *{
+        max-width: 100%;
+    }
+    header{
+        display: none;
+    }
+    main{
+        width: 100vw;
+    }
+    .left-form input, textarea{
+        border: 2px solid #eeeeee;
+        min-width: 100%;
+        max-width: 10vw;
+        min-height: 4vh;
+        max-height: 8vh;
+    }
+    .left-form{
+        border-bottom: 2px solid #eeeeee;
+    }
+
+    .forms{
+    width: 100%;
+    height: 10%;
+    flex-direction: column;
+    }
+    .next-bar ul li{
+        display: none;
+    }
+    .next-bar .mobile-bar{
+        display: block;
+    }
+    button{
+        width: 90vw!important;
+    }
+    footer{
+        display: none;
+    }
+    .mobile-footer{
+        display: block !important;
+        text-align: center;
+        margin: 50px;
+    }
+    .first-massively{
+        font-size: 100%;
+    }
+    .first-massively h1{
+        font-size: 400%;
+    }
+    .second-massively{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-massively h1{
+        font-size: 300%;
+    }
+    .second-massively h4{
+    margin: 20px 150px;
+    margin-bottom: 50px;
+    }
+    .boxes div{
+    border-right: 0px;
+    width: 100vw;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .boxes button{
+        max-width: 530px;
+    }
+    /* Collapsible button|sidebar for header items */
+    .openbtn{
+        display: block;
+        max-width: 100px;
+        position: sticky;
+        top: 15px;
+        left: 100vw;
+        border: none;
+        color: #eeeeee;
+    }
+    .openbtn:checked{
+        position: sticky;
+        top: 20px;
+        right: 100vw;
+        z-index: 1;
+    }
+    .openbtn:checked + .menu{
+        display: block;
+        max-width: 80vw;
+        height: 100vh;
+        position: sticky;
+        top: 0px;
+        left: 100vw;
+        border: none;
+        color: #eeeeee;
+        background-color: #ffffff;
+    }
+    .closebtn{
+        display: block;
+        position: sticky;
+        top: 0px;
+        left: 100vw;
+        border: none;
+        color: #717981;
+    }
+
+    .top-menu h2{
+        color: #1e252d;
+        height: 10%;
+        padding: 40px;
+    }
+    .top-menu .border{
+        border: 2px solid #eeeeee;
+    }
+    .bottom-menu{
+        padding: 40px;
+    }
+    .bottom-menu svg{
+        margin: 10px;
+    }
+    /* pseudo code to find how to select parent of .closebtn so parent closes on click/focus */
+    .closebtn:focus::parent{
+        display: none;
+    }
+    /* .openbtn:focus{
+        display: none;
+    } */
+}
+
+
+/* iPhone 12Pro */
+@media screen and (max-width: 400px) {
+    .right-form div{
+    height: 100%;
+    border-bottom: 2px solid #eeeeee;
+    min-width: 10%;
+    max-width: 15vw;
+    }
+}
